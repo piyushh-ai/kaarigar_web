@@ -109,7 +109,7 @@ export default function Home() {
 
           {/* Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16 animate-slide-up animation-delay-600">
-            <button onClick={() => router.push('/project')} className="group relative bg-gradient-to-r from-[#A78BFA] to-[#38BDF8] hover:from-[#F472B6] hover:to-[#FACC15] text-white px-8 py-4 rounded-2xl font-semibold transition-all duration-300 hover:shadow-2xl hover:shadow-[#A78BFA]/25 hover:-translate-y-2 transform-gpu overflow-hidden">
+            <button onClick={() => router.push('/projects')} className="group relative bg-gradient-to-r from-[#A78BFA] to-[#38BDF8] hover:from-[#F472B6] hover:to-[#FACC15] text-white px-8 py-4 rounded-2xl font-semibold transition-all duration-300 hover:shadow-2xl hover:shadow-[#A78BFA]/25 hover:-translate-y-2 transform-gpu overflow-hidden">
               <div className="absolute inset-0 bg-gradient-to-r from-white/0 via-white/20 to-white/0 -translate-x-full group-hover:translate-x-full transition-transform duration-700"></div>
               <span className="flex items-center gap-2 justify-center relative z-10">
                 🔧 Explore Projects
