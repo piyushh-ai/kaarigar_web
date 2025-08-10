@@ -1,7 +1,9 @@
 "use client";
 import React, { useEffect, useState } from 'react';
+import { useRouter } from 'next/navigation';
 
 export default function Home() {
+  const router = useRouter();
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
 
   useEffect(() => {
@@ -107,13 +109,13 @@ export default function Home() {
 
           {/* Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16 animate-slide-up animation-delay-600">
-            <button className="group relative bg-gradient-to-r from-[#A78BFA] to-[#38BDF8] hover:from-[#F472B6] hover:to-[#FACC15] text-white px-8 py-4 rounded-2xl font-semibold transition-all duration-300 hover:shadow-2xl hover:shadow-[#A78BFA]/25 hover:-translate-y-2 transform-gpu overflow-hidden">
+            <button onClick={() => router.push('/project')} className="group relative bg-gradient-to-r from-[#A78BFA] to-[#38BDF8] hover:from-[#F472B6] hover:to-[#FACC15] text-white px-8 py-4 rounded-2xl font-semibold transition-all duration-300 hover:shadow-2xl hover:shadow-[#A78BFA]/25 hover:-translate-y-2 transform-gpu overflow-hidden">
               <div className="absolute inset-0 bg-gradient-to-r from-white/0 via-white/20 to-white/0 -translate-x-full group-hover:translate-x-full transition-transform duration-700"></div>
               <span className="flex items-center gap-2 justify-center relative z-10">
                 🔧 Explore Projects
               </span>
             </button>
-            <button className="group relative bg-white/10 backdrop-blur-md border border-white/20 hover:bg-white/20 text-white px-8 py-4 rounded-2xl font-semibold transition-all duration-300 hover:shadow-xl hover:-translate-y-2 transform-gpu overflow-hidden">
+            <button onClick={() => router.push('/youtube')} className="group relative bg-white/10 backdrop-blur-md border border-white/20 hover:bg-white/20 text-white px-8 py-4 rounded-2xl font-semibold transition-all duration-300 hover:shadow-xl hover:-translate-y-2 transform-gpu overflow-hidden">
               📺 Watch Tutorials
             </button>
           </div>
