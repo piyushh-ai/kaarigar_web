@@ -12,5 +12,19 @@
     "image": "/assets/image/bowGame.jpg",
     "youtube": "https://youtube.com/shorts/TsbO06wFKpg?si=GriMpBo4GJkhhR1D",
     "code": "/assets/zip file/bow-game.zip"
+  },
+  {
+    "title": "💕 Heart Game 💖",
+    "description": "Fun heart clicking game made with HTML, CSS, JS.",
+    "image": "/assets/image/heartGame.jpg",
+    "youtube": "https://youtube.com/shorts/S13-8fTqLgI",
+    "code": "/assets/zip file/Heart-Game.zip"
+  },
+  {
+    "title": "🏹 Bow Game",
+    "description": "Auto-reply Telegram bot using Google Cloud.",
+    "image": "/assets/image/bowGame.jpg",
+    "youtube": "https://youtube.com/shorts/TsbO06wFKpg?si=GriMpBo4GJkhhR1D",
+    "code": "/assets/zip file/bow-game.zip"
   }
 ]
