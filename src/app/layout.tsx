@@ -14,7 +14,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="text-black dark:text-white">
+      <body className="text-black dark:text-white" suppressHydrationWarning>
         <Navbar />
         <main className="min-h-screen">{children}</main>
         <Footer />

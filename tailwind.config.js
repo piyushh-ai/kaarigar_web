@@ -11,6 +11,11 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        brand: {
+          50: '#f5f3ff',
+          100: '#ede9fe',
+          500: '#8b5cf6'
+        },
         background: "var(--background)",
         foreground: "var(--foreground)",
         border: "hsl(var(--border))",
