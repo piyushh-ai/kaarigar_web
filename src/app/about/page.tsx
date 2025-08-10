@@ -146,7 +146,7 @@ export default function About() {
         {/* Call to Action */}
         <div className="text-center mt-16">
           <p className="text-xl text-gray-600 dark:text-gray-300 mb-6">
-            Ready to collaborate? Let's build something amazing together! 🤝
+            Ready to collaborate? Let&apos;s build something amazing together! 🤝
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link

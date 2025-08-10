@@ -68,7 +68,7 @@ export default function Terms() {
                       <ul className="text-gray-700 dark:text-gray-300 space-y-2 text-sm">
                         <li>• Website aur content use kar sakte hain</li>
                         <li>• Code download aur modify kar sakte hain</li>
-                        <li>• "Kaarigar Code" naam ka misuse mat karo</li>
+                        <li>• &quot;Kaarigar Code&quot; naam ka misuse mat karo</li>
                         <li>• Community mein participate kar sakte hain</li>
                       </ul>
                     </div>
@@ -229,7 +229,7 @@ export default function Terms() {
                     <div className="flex items-start gap-3">
                       <span className="text-xl">🔧</span>
                       <div>
-                        <h3 className="font-semibold text-gray-800 dark:text-white">Code "As Is"</h3>
+                        <h3 className="font-semibold text-gray-800 dark:text-white">Code &quot;As Is&quot;</h3>
                         <p className="text-gray-700 dark:text-gray-300 text-sm">
                           Main apna best effort deta hoon, lekin code bugs ya issues ho sakte hain. 
                           Always test karo before production use!
