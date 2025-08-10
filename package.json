@@ -2,7 +2,6 @@
   "name": "kaarigar-code",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://piyushh-ai.github.io/kaarigar_web",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
