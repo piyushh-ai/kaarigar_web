@@ -106,7 +106,7 @@ export default function PrivacyPolicy() {
                       </ul>
                     </div>
                     <div>
-                      <h3 className="font-semibold text-gray-800 dark:text-white mb-3">❌ What We DON'T Do:</h3>
+                      <h3 className="font-semibold text-gray-800 dark:text-white mb-3">❌ What We DON&apos;T Do:</h3>
                       <ul className="text-gray-700 dark:text-gray-300 space-y-2">
                         <li>• Aapka data sell nahi karte</li>
                         <li>• Spam emails nahi bhejte</li>

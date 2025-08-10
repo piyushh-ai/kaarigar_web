@@ -6,7 +6,7 @@ export default function Contact() {
         <div className="text-center mb-16">
           <h1 className="text-5xl font-bold mb-6">
             <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-              📬 Let's Connect
+              📬 Let&apos;s Connect
             </span>
           </h1>
           <p className="text-xl text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">

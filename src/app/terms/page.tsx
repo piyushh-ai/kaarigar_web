@@ -68,7 +68,7 @@ export default function Terms() {
                       <ul className="text-gray-700 dark:text-gray-300 space-y-2 text-sm">
                         <li>• Website aur content use kar sakte hain</li>
                         <li>• Code download aur modify kar sakte hain</li>
-                        <li>• Tutorial follow kar sakte hain</li>
+                        <li>• "Kaarigar Code" naam ka misuse mat karo</li>
                         <li>• Community mein participate kar sakte hain</li>
                       </ul>
                     </div>
@@ -161,7 +161,7 @@ export default function Terms() {
                         <p className="text-gray-700 dark:text-gray-300 text-sm">
                           Most of my code is shared in the spirit of open source. Aap use kar sakte hain, 
                           modify kar sakte hain, aur learn kar sakte hain. Bas ek simple rule - 
-                          <span className="font-semibold"> don't claim it as your original work!</span>
+                          <span className="font-semibold"> don&apos;t claim it as your original work!</span>
                         </p>
                       </div>
                     </div>
