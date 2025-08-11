@@ -1,5 +1,12 @@
 [
   {
+    "title": "Image Cursor Trail",
+    "description": "Interactive cursor trail effect with images following mouse movement and smooth animations.",
+    "image": "/assets/image/imageCursorTrail.png",
+    "youtube": "https://youtube.com/shorts/tOXlBxhzXRo",
+    "code": "/assets/zip file/image-cursor-trail.zip"
+  },
+  {
     "title": "💕 Heart Game 💖",
     "description": "Fun heart clicking game made with HTML, CSS, JS.",
     "image": "/assets/image/heartGame.jpg",
