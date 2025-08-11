@@ -138,13 +138,13 @@ export default function Home() {
 
           {/* Enhanced Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16 animate-buttons-entrance animation-delay-600">
-            <button onClick={() => window.open('/projects', '_blank')} className="group relative bg-gradient-to-r from-[#A78BFA] to-[#38BDF8] hover:from-[#F472B6] hover:to-[#FACC15] text-white px-8 py-4 rounded-2xl font-semibold transition-all duration-500 hover:shadow-2xl hover:shadow-[#A78BFA]/25 hover:-translate-y-3 transform-gpu overflow-hidden animate-button-float">
+            <button onClick={() => ('/projects')} className="group relative bg-gradient-to-r from-[#A78BFA] to-[#38BDF8] hover:from-[#F472B6] hover:to-[#FACC15] text-white px-8 py-4 rounded-2xl font-semibold transition-all duration-500 hover:shadow-2xl hover:shadow-[#A78BFA]/25 hover:-translate-y-3 transform-gpu overflow-hidden animate-button-float">
               <div className="absolute inset-0 bg-gradient-to-r from-white/0 via-white/20 to-white/0 -translate-x-full group-hover:translate-x-full transition-transform duration-700"></div>
               <span className="flex items-center gap-2 justify-center relative z-10 group-hover:scale-110 transition-transform duration-300">
                 <span className="animate-bounce">🔧</span> Explore Projects
               </span>
             </button>
-            <button onClick={() => window.open('https://youtube.com/@kaarigarcode', '_blank')} className="group relative bg-white/10 backdrop-blur-md border border-white/20 hover:bg-white/20 text-white px-8 py-4 rounded-2xl font-semibold transition-all duration-500 hover:shadow-xl hover:-translate-y-3 transform-gpu overflow-hidden animate-button-float animation-delay-200">
+            <button onClick={() => window.open('https://youtube.com/@kaarigarcode')} className="group relative bg-white/10 backdrop-blur-md border border-white/20 hover:bg-white/20 text-white px-8 py-4 rounded-2xl font-semibold transition-all duration-500 hover:shadow-xl hover:-translate-y-3 transform-gpu overflow-hidden animate-button-float animation-delay-200">
               <span className="flex items-center gap-2 justify-center group-hover:scale-110 transition-transform duration-300">
                 <span className="group-hover:animate-pulse">📺</span> Watch Tutorials
               </span>
