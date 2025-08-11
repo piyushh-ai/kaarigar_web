@@ -1,7 +1,14 @@
 "use client";
 import React, { useEffect, useState } from 'react';
+import { useRouter } from 'next/navigation';
 
+/**
+ * Home component renders the main page with interactive animations.
+ * It tracks mouse and scroll positions to create dynamic visual effects.
+ * Includes sections like hero, background elements, and content with animations.
+ */
 export default function Home() {
+  const router = useRouter();
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
   const [scrollY, setScrollY] = useState(0);
 
@@ -138,7 +145,7 @@ export default function Home() {
 
           {/* Enhanced Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16 animate-buttons-entrance animation-delay-600">
-            <button onClick={() => ('/projects')} className="group relative bg-gradient-to-r from-[#A78BFA] to-[#38BDF8] hover:from-[#F472B6] hover:to-[#FACC15] text-white px-8 py-4 rounded-2xl font-semibold transition-all duration-500 hover:shadow-2xl hover:shadow-[#A78BFA]/25 hover:-translate-y-3 transform-gpu overflow-hidden animate-button-float">
+            <button onClick={() => router.push('/projects')} className="group relative bg-gradient-to-r from-[#A78BFA] to-[#38BDF8] hover:from-[#F472B6] hover:to-[#FACC15] text-white px-8 py-4 rounded-2xl font-semibold transition-all duration-500 hover:shadow-2xl hover:shadow-[#A78BFA]/25 hover:-translate-y-3 transform-gpu overflow-hidden animate-button-float">
               <div className="absolute inset-0 bg-gradient-to-r from-white/0 via-white/20 to-white/0 -translate-x-full group-hover:translate-x-full transition-transform duration-700"></div>
               <span className="flex items-center gap-2 justify-center relative z-10 group-hover:scale-110 transition-transform duration-300">
                 <span className="animate-bounce">🔧</span> Explore Projects
