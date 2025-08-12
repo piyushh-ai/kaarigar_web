@@ -7,23 +7,23 @@ export default function AppPage(): React.JSX.Element {
     {
       icon: '🗺️',
       title: 'Location Simulation',
-      description: 'Simulate GPS location anywhere in the world with precision.'
+      description: 'Simulate GPS location anywhere in the world with precision.',
     },
     {
       icon: '🔧',
       title: 'Developer Tools',
-      description: 'Perfect for app testing and location-based development.'
+      description: 'Perfect for app testing and location-based development.',
     },
     {
       icon: '🎯',
       title: 'Precise Control',
-      description: 'Set exact coordinates or search for specific locations.'
+      description: 'Set exact coordinates or search for specific locations.',
     },
     {
       icon: '🔒',
       title: 'Privacy First',
-      description: 'All location data stays on your device — no data collection.'
-    }
+      description: 'All location data stays on your device — no data collection.',
+    },
   ];
 
   const screenshots = [
@@ -33,7 +33,7 @@ export default function AppPage(): React.JSX.Element {
     { src: '/assets/appImage/6082429313778567235.jpg', alt: 'Settings panel' },
     { src: '/assets/appImage/6082429313778567234.jpg', alt: 'Location selection' },
     { src: '/assets/appImage/6082429313778567233.jpg', alt: 'App menu' },
-    { src: '/assets/appImage/6082429313778567232.jpg', alt: 'About screen' }
+    { src: '/assets/appImage/6082429313778567232.jpg', alt: 'About screen' },
   ];
 
   return (
@@ -46,9 +46,9 @@ export default function AppPage(): React.JSX.Element {
         />
       </Head>
 
-      <div className="min-h-screen bg-gradient-to-br from-[#0F172A] via-[#1E1B4B] to-[#0F172A]">
+      <main className="min-h-screen bg-gradient-to-br from-[#0F172A] via-[#1E1B4B] to-[#0F172A] text-white">
         {/* Hero Section */}
-        <div className="max-w-6xl mx-auto px-4 py-12">
+        <section className="max-w-6xl mx-auto px-4 py-12">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             {/* App Info */}
             <div className="space-y-6">
@@ -60,13 +60,16 @@ export default function AppPage(): React.JSX.Element {
                     width={96}
                     height={96}
                     className="w-full h-full object-cover"
+                    priority
                   />
                 </div>
                 <div>
-                  <h1 className="text-4xl font-bold text-white mb-2">TeleportGo</h1>
+                  <h1 className="text-4xl font-bold mb-2">TeleportGo</h1>
                   <p className="text-gray-300 text-lg">Location Development Tool</p>
                   <div className="flex items-center gap-2 mt-2">
-                    <div className="flex text-yellow-400">{'★'.repeat(5)}</div>
+                    <div className="flex text-yellow-400" aria-label="App rating 5 stars">
+                      {'★'.repeat(5)}
+                    </div>
                     <span className="text-gray-400 text-sm">(4.8) • Developer Tools</span>
                   </div>
                 </div>
@@ -83,6 +86,7 @@ export default function AppPage(): React.JSX.Element {
                 <a
                   href="https://github.com/piyushh-ai/teleportGo/releases/download/v1.0/teleportgo-v1.0.apk"
                   className="inline-flex items-center gap-3 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white px-8 py-4 rounded-2xl font-semibold text-lg shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all duration-300"
+                  aria-label="Download TeleportGo APK version 1.0"
                 >
                   <span className="text-2xl">📱</span>
                   Download APK
@@ -96,7 +100,7 @@ export default function AppPage(): React.JSX.Element {
                   <span>•</span>
                   <span>Android 6.0+</span>
                   <span>•</span>
-                  <span>5.2 MB</span>
+                  <span>25.2 MB</span>
                 </div>
               </div>
             </div>
@@ -117,13 +121,13 @@ export default function AppPage(): React.JSX.Element {
               </div>
             </div>
           </div>
-        </div>
+        </section>
 
         {/* Screenshots Section */}
-        <div className="bg-gray-800/30 backdrop-blur-sm py-16">
+        <section className="bg-gray-800/30 backdrop-blur-sm py-16">
           <div className="max-w-6xl mx-auto px-4">
             <div className="text-center mb-12">
-              <h2 className="text-3xl font-bold text-white mb-4">App Screenshots</h2>
+              <h2 className="text-3xl font-bold mb-4">App Screenshots</h2>
               <p className="text-gray-300 text-lg">
                 Explore TeleportGo&apos;s clean and intuitive interface designed for developers.
               </p>
@@ -147,13 +151,13 @@ export default function AppPage(): React.JSX.Element {
               ))}
             </div>
           </div>
-        </div>
+        </section>
 
         {/* Features Section */}
-        <div className="bg-gray-900/50 backdrop-blur-sm py-16">
+        <section className="bg-gray-900/50 backdrop-blur-sm py-16">
           <div className="max-w-6xl mx-auto px-4">
             <div className="text-center mb-12">
-              <h2 className="text-3xl font-bold text-white mb-4">Key Features</h2>
+              <h2 className="text-3xl font-bold mb-4">Key Features</h2>
               <p className="text-gray-300 text-lg">
                 All the tools you need for accurate and secure location-based development.
               </p>
@@ -165,18 +169,18 @@ export default function AppPage(): React.JSX.Element {
                   <div className="w-16 h-16 bg-gradient-to-br from-blue-500 to-purple-600 rounded-2xl flex items-center justify-center text-2xl mb-4 mx-auto group-hover:scale-110 transition-transform duration-300 shadow-lg">
                     {feature.icon}
                   </div>
-                  <h3 className="text-xl font-semibold text-white mb-2">{feature.title}</h3>
+                  <h3 className="text-xl font-semibold mb-2">{feature.title}</h3>
                   <p className="text-gray-300">{feature.description}</p>
                 </div>
               ))}
             </div>
           </div>
-        </div>
+        </section>
 
         {/* About Section */}
-        <div className="bg-gradient-to-br from-gray-800/30 to-purple-900/30 py-16">
+        <section className="bg-gradient-to-br from-gray-800/30 to-purple-900/30 py-16">
           <div className="max-w-4xl mx-auto px-4 text-center">
-            <h2 className="text-3xl font-bold text-white mb-6">About TeleportGo</h2>
+            <h2 className="text-3xl font-bold mb-6">About TeleportGo</h2>
             <div className="bg-gray-800/80 backdrop-blur-sm rounded-2xl p-8 shadow-xl border border-gray-700/50">
               <p className="text-gray-300 text-lg leading-relaxed mb-6">
                 TeleportGo is a powerful open-source location simulation tool made for developers.
@@ -184,25 +188,25 @@ export default function AppPage(): React.JSX.Element {
               </p>
 
               <div className="grid md:grid-cols-3 gap-6 mt-8">
-                <div className="text-center">
+                <div>
                   <div className="text-3xl font-bold text-blue-600 mb-2">100%</div>
                   <div className="text-gray-400">Privacy Protected</div>
                 </div>
-                <div className="text-center">
+                <div>
                   <div className="text-3xl font-bold text-purple-400 mb-2">0</div>
                   <div className="text-gray-400">Data Collection</div>
                 </div>
-                <div className="text-center">
+                <div>
                   <div className="text-3xl font-bold text-emerald-400 mb-2">Free</div>
                   <div className="text-gray-400">Open Source</div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
+        </section>
 
         {/* Developer Info */}
-        <div className="bg-gray-900 text-white py-16">
+        <section className="bg-gray-900 py-16">
           <div className="max-w-4xl mx-auto px-4 text-center">
             <div className="mb-8">
               <div className="w-20 h-20 bg-gradient-to-br from-emerald-400 to-cyan-400 rounded-full flex items-center justify-center text-2xl mx-auto mb-4">
@@ -220,19 +224,21 @@ export default function AppPage(): React.JSX.Element {
               <a
                 href="https://www.youtube.com/@KaarigarCode"
                 className="flex items-center gap-2 bg-red-600 hover:bg-red-700 px-6 py-3 rounded-xl transition-colors"
+                aria-label="Visit YouTube channel Kaarigar Code"
               >
                 📺 YouTube
               </a>
               <a
                 href="https://github.com/piyushh-ai"
                 className="flex items-center gap-2 bg-gray-800 hover:bg-gray-700 px-6 py-3 rounded-xl transition-colors"
+                aria-label="Visit GitHub profile of Kaarigar Code"
               >
                 🐙 GitHub
               </a>
             </div>
           </div>
-        </div>
-      </div>
+        </section>
+      </main>
     </>
   );
 }
