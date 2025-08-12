@@ -167,7 +167,7 @@ export default function AppPage(): React.JSX.Element {
           <div className="bg-gray-800/80 backdrop-blur-sm rounded-2xl p-8 shadow-xl border border-gray-700/50">
             <p className="text-gray-300 text-lg leading-relaxed mb-6">
               TeleportGo is a powerful location simulation tool designed specifically for developers and testers. 
-              Whether you're building location-aware applications, testing geofencing features, or debugging 
+              Whether you&apos;re building location-aware applications, testing geofencing features, or debugging 
               GPS-related functionality, TeleportGo provides the precision and control you need.
             </p>
             
