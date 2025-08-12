@@ -37,6 +37,7 @@ export default function Footer() {
     { name: "YouTube", href: "/youtube" },
     { name: "About", href: "/about" },
     { name: "Contact", href: "/contact" },
+    { name: "My App", href: "/app"}
   ];
 
   const techStack = [

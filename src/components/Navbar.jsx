@@ -11,6 +11,7 @@ export default function Navbar() {
     { href: "/youtube", label: "YouTube", icon: "📺" },
     { href: "/about", label: "About", icon: "👨‍💻" },
     { href: "/contact", label: "Contact", icon: "📬" },
+    { href: "/app", label: "My App", icon: "📱" },
   ];
 
   return (
