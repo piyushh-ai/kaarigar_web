@@ -5,6 +5,9 @@ import Footer from '../components/Footer'
 export const metadata = {
   title: 'Kaarigar Code',
   description: 'Projects, YouTube and Portfolio by Kaarigar Code',
+  icons: {
+    icon: '/icon.png',
+  },
 }
 
 export default function RootLayout({
